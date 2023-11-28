@@ -1,0 +1,46 @@
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.list-group {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+

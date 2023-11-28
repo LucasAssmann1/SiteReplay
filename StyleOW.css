@@ -1,0 +1,190 @@
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+header {
+    background-color: rgb(199, 188, 188);
+
+}
+
+
+header h1{
+    text-align: left;
+
+    color: black;
+
+    position: relative;
+}
+
+header h2 {
+    text-align: right;
+
+    position: relative;
+}
+
+header button {
+    display: inline-block;
+    text-align: center;
+    border-radius: 0px;
+    background: none;
+    text-align: right;
+    align-items: right;
+    margin: 20px 2px;
+
+}
+
+body {
+    background-color: white;
+}
+
+.videoscar {
+    width: 100%;
+}
+
+
+.img1 {
+    display: flex;
+    position: relative;
+    text-align: center;
+    
+    width: 20%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;  
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.carousel-slide {
+    position: block;
+    display: flex;
+    align-items: center;
+    
+    width: 60%;
+    height: 500px;
+    margin-bottom: 80px;
+
+}
+
+
+.carousel-control-prev {
+    background-color: black ;
+
+    width: 7%;
+    height: 40%;
+    align-items: center;
+    display: flex;
+    
+    border-radius: 80px;
+    
+}
+
+button {
+    display: flex;
+    border-radius: 20px;
+
+    background-color: black;
+}
+
+.botoes {
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+
+    
+    left: 18%;
+    opacity: 0.7;
+}
+
+
+.icones {
+    width: 40px;
+    height: 25px;
+    color: white;
+}
+
+
+
+
+.carousel-control-next{
+    background-color: black ;
+
+    width: 7%;
+    height: 40%;
+    align-items: center;
+    display: flex;
+    
+    border-radius: 80px;  
+}
+
+.video {
+    position: relative;
+    height: 100%;
+    min-height: 500px;
+    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(medias/Nilah_Skin01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.carousel{
+    display: flex;
+    width: 40%;
+    text-align: center;
+    align-items: end;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+
+.btn-group {
+    display: flex;
+    align-items: center;
+}
+
+
+
+p {
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items:center;
+    
+}
+
+.infos {
+    background-color: #000000;
+    text-align: center;
+}
+
+
+#img-teste {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    
+
+}
