@@ -17,7 +17,7 @@ function before() {
 
 function next() {
     i = i + 1;
-    if (i > 3) {
+    if (i > 4) {
         i = 0;
     }
     console.log(i);
